@@ -2,7 +2,7 @@
 
 POSSE CLI to send  1 to 300 characters sized messages to Bluesky, GoToSocial, and LinkedIn.
 
-```zsh
+```bash
 $ source ./setup
 (my_env) $ python3 ./posse.py --help   
 usage: posse.py [-h] [--dry-run] [--no-bsky] [--no-gts] [--no-li] [--only-bsky] [--only-gts]
@@ -47,21 +47,21 @@ It currently supports **Bluesky**, **GoToSocial** (ActivityPub/Mastodon), and **
 
 **Interactive Mode (Multi-line input)**
 
-```zsh
+```bash
 python3 posse.py
 
 ```
 
 **Quick Post (One-liner)**
 
-```zsh
+```bash
 python3 posse.py "Just published a new blog post! https://example.com"
 
 ```
 
 **Post to specific networks only**
 
-```zsh
+```bash
 # Post only to Bluesky (useful for threads or testing)
 python3 posse.py --only-bsky "Hello Bluesky!"
 
@@ -72,7 +72,7 @@ python3 posse.py --no-li "Good morning Fediverse and Bluesky!"
 
 **Dry Run (Test without sending)**
 
-```zsh
+```bash
 python3 posse.py --dry-run "Checking my link preview logic https://example.com"
 
 ```
