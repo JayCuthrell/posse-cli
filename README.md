@@ -3,7 +3,7 @@
 POSSE CLI to send  1 to 300 characters sized messages to Bluesky, GoToSocial, and LinkedIn.
 
 ```bash
-$ source ./setup
+$ source ./setup.sh
 (my_env) $ python3 ./posse.py --help   
 usage: posse.py [-h] [--dry-run] [--no-bsky] [--no-gts] [--no-li] [--only-bsky] [--only-gts]
                 [--only-li]
