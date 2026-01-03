@@ -76,3 +76,20 @@ python3 posse.py --no-li "Good morning Fediverse and Bluesky!"
 python3 posse.py --dry-run "Checking my link preview logic https://example.com"
 
 ```
+
+### Configuration
+
+1.  **Environment Variables:**
+    Copy the sample configuration file to create your local `.env` file:
+    ```bash
+    cp .env-sample .env
+    ```
+
+2.  **Fill in your credentials:**
+    Open `.env` and populate the variables:
+
+    * **Bluesky:** Generate an App Password in **Settings > App Passwords**. Do not use your main login password.
+    * **GoToSocial:** Use your instance URL and generate an Access Token with `write:statuses` permissions.
+    * **LinkedIn:** * Obtain an Access Token with `w_member_social` scope.
+        * Find your Author URN (e.g., `urn:li:person:12345`).
+        * *Tip:* You can use the helper scripts in `tools/` (if available) to fetch these.
