@@ -1,0 +1,15 @@
+pip
+bs4
+setuptools
+requests
+python-dateutil
+datetime
+python-dotenv
+urllib3
+feedparser 
+python-frontmatter
+markdown
+markdownify
+pytz
+pillow
+atproto
