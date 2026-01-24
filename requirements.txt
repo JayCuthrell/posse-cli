@@ -1,15 +1,12 @@
-pip
-bs4
-setuptools
+# Core Logic
 requests
-python-dateutil
-datetime
 python-dotenv
-urllib3
-feedparser 
-python-frontmatter
-markdown
-markdownify
-pytz
+beautifulsoup4
 pillow
 atproto
+
+# Web Server
+fastapi
+uvicorn
+jinja2
+python-multipart
